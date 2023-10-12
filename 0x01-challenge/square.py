@@ -3,13 +3,12 @@
 class square
 """
 
+
 class square():
     """class square"""
-    
     width = 0
     height = 0
 
-    
     def __init__(self, *args, **kwargs):
         """init method"""
         for key, value in kwargs.items():
@@ -27,8 +26,8 @@ class square():
         """ str representation"""
         return "{}/{}".format(self.width, self.height)
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     s = square(width=12, height=19)
     print(s)
     print(s.area_of_my_square())
