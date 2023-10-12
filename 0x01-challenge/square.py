@@ -4,7 +4,7 @@ class square
 """
 
 
-class square:
+class square():
     """class square"""
     width = 0
     height = 0
@@ -28,6 +28,7 @@ class square:
 
 
 if __name__ == "__main__":
+    """ create object"""
     s = square(width=12, height=19)
     print(s)
     print(s.area_of_my_square())
